@@ -20,7 +20,7 @@ Containers or container classes store objects and data. There are in total seven
 * Sequence Containers: implement data structures which can be accessed in a sequential manner.
   * [vector](Vector.md)
   * [list](List.md)
-  * [deque]
+  * [deque](Deque.md)
   * arrays
   * forward_list
 * Container Adaptors : provide a different interface for sequential containers.
