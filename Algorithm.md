@@ -20,28 +20,28 @@ These algorithms operate on an array and are useful in saving time during coding
 
 * all_of() : operates on whole range of array elements and can save time to run a loop to check each elements one by one. It checks for a given property on every element and returns true when each element in range satisfies specified property, else returns false.
 
-    * any_of() : checks for a given range if there’s even one element satisfying a given property mentioned in function. Returns true if at least one element satisfies the property else returns false.
+* any_of() : checks for a given range if there’s even one element satisfying a given property mentioned in function. Returns true if at least one element satisfies the property else returns false.
 
     
-    * none_of() : returns true if none of elements satisfies the given condition else returns false.
+* none_of() : returns true if none of elements satisfies the given condition else returns false.
     
-    * copy_n() : copies one array elements to new array. This type of copy creates a deep copy of array. This function takes 3 arguments, source array name, size of array and the target array name.
+* copy_n() : copies one array elements to new array. This type of copy creates a deep copy of array. This function takes 3 arguments, source array name, size of array and the target array name.
     
-    * iota() : used to assign continuous values to array. This function accepts 3 arguments, the array name, size, and the starting number. continuous values are assigned to array using iota().
+* iota() : used to assign continuous values to array. This function accepts 3 arguments, the array name, size, and the starting number. continuous values are assigned to array using iota().
     
 
 ## Partition Operation
 
 Partition refers to act of dividing elements of containers depending upon a given condition. Partition operations :
 
-    * partition(beg, end, condition) :- This function is used to partition the elements on basis of condition mentioned in its arguments.
+* partition(beg, end, condition) :- This function is used to partition the elements on basis of condition mentioned in its arguments.
 
-    * is_partitioned(beg, end, condition) :- This function returns boolean true if container is partitioned else returns false.
+* is_partitioned(beg, end, condition) :- This function returns boolean true if container is partitioned else returns false.
 
-    * stable_partition(beg, end, condition) :- This function is used to partition the elements on basis of condition mentioned in its arguments in such a way that the relative order of the elements is preserved..
+* stable_partition(beg, end, condition) :- This function is used to partition the elements on basis of condition mentioned in its arguments in such a way that the relative order of the elements is preserved..
 
-    * partition_point(beg, end, condition) :- This function returns an iterator pointing to the partition point of container i.e. the first element in the partitioned range [beg,end) for which condition is not true. The container should already be partitioned for this function to work.
+* partition_point(beg, end, condition) :- This function returns an iterator pointing to the partition point of container i.e. the first element in the partitioned range [beg,end) for which condition is not true. The container should already be partitioned for this function to work.
 
-    * partition_copy(beg, end, beg1, beg2, condition) :- copies the partitioned elements in the differenet containers mentioned in its arguments. It takes 5 arguments. Beginning and ending position of container, beginning position of new container where elements have to be copied (elements returning true for condition), beginning position of new container where other elements have to be copied (elements returning false for condition) and the condition. Resizing new containers is necessary for this function.
+* partition_copy(beg, end, beg1, beg2, condition) :- copies the partitioned elements in the differenet containers mentioned in its arguments. It takes 5 arguments. Beginning and ending position of container, beginning position of new container where elements have to be copied (elements returning true for condition), beginning position of new container where other elements have to be copied (elements returning false for condition) and the condition. Resizing new containers is necessary for this function.
 
 
