@@ -6,19 +6,19 @@
 
 Sorting means arranging the data in a particular fashion, which can be increasing or decreasing. There is a builtin function in C++ STL by the name of sort(). Internally this function is implemented as Quick-sort. The complexity of it is O(N*log(N)). The prototype for sort is :
 
-    * sort(startaddress, endaddress)
+* sort(startaddress, endaddress)
 
 ## Searching
 
 Binary search is a widely used searching algorithm that requires the array to be sorted before search is applied. The main idea is to keep dividing the array in half (divide and conquer) until the element is found, or all the elements are exhausted. It works by comparing the middle item of the array with our target, if it matches, it returns true otherwise if the middle term is greater than the target, the search is performed in the left sub-array. If the middle term is less than target, the search is performed in the right sub-array.
 
-    * binary_search(startaddress, endaddress, valuetofind)
+* binary_search(startaddress, endaddress, valuetofind)
 
 ## Array algorithms
 
 These algorithms operate on an array and are useful in saving time during coding and hence useful in competitive programming as well.
 
-    * all_of() : operates on whole range of array elements and can save time to run a loop to check each elements one by one. It checks for a given property on every element and returns true when each element in range satisfies specified property, else returns false.
+* all_of() : operates on whole range of array elements and can save time to run a loop to check each elements one by one. It checks for a given property on every element and returns true when each element in range satisfies specified property, else returns false.
 
     * any_of() : checks for a given range if there’s even one element satisfying a given property mentioned in function. Returns true if at least one element satisfies the property else returns false.
 
